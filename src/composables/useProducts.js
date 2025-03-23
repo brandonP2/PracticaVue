@@ -1,7 +1,5 @@
-// src/composables/useProducts.js
 import { reactive, watch } from 'vue'
 
-// Creamos y exportamos una función que devuelva todo lo necesario
 export function useProducts() {
   // 1. Array reactivo
   const productos = reactive([
